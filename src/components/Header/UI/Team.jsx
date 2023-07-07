@@ -1,6 +1,6 @@
 
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/team.css'
+import '../../../styles/team.css'
 import team1 from '/Users/kevindaliri/digital-agency/src/images/kevin.png'
 import team2 from '/Users/kevindaliri/digital-agency/src/images/Potrait.jpeg'
 import team3 from '/Users/kevindaliri/digital-agency/src/images/jerry.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/counter.css'
+import '../../../styles/counter.css'
 
 const counterData = [
     {

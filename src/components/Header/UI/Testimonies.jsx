@@ -1,6 +1,6 @@
 
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/testimonies.css'
+import '../../../styles/testimonies.css'
 
 import Slider from 'react-slick'
 

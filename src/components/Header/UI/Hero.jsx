@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/hero.css'
+import '../../../styles/hero.css'
 import newImage from '/Users/kevindaliri/digital-agency/src/images/finalimage.svg'
 
 const Hero = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/kevindaliri/digital-agency/src/styles/service.css';
+import '../../../styles/service.css';
 
 
 const serviceData = [

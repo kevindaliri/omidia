@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '/Users/kevindaliri/digital-agency/src/styles/webdesign.css';
+import '../../../styles/webdesign.css';
 import team2 from '/Users/kevindaliri/digital-agency/src/images/heeee.jpg';
 import team3 from '/Users/kevindaliri/digital-agency/src/images/cookbooklogo.png';
 import budget from '/Users/kevindaliri/digital-agency/src/images/budget.jpg';

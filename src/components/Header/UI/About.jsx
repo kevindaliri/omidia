@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/about.css'
+import '../../../styles/about.css'
 
 import aboutImage from '/Users/kevindaliri/digital-agency/src/images/up.svg'
 

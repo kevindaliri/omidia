@@ -1,5 +1,5 @@
 import React, { useRef, useEffect} from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/header.css'
+import '../../../styles/header.css'
 import omidia from '/Users/kevindaliri/digital-agency/src/images/justcircle.svg';
 import omidia2 from '/Users/kevindaliri/digital-agency/src/images/justtext.svg';
 

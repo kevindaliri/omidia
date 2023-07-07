@@ -1,6 +1,6 @@
 
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/contact.css'
+import '../../../styles/contact.css'
 import contactImage from '/Users/kevindaliri/digital-agency/src/images/realimage.svg'
 
 const Contact = () => {

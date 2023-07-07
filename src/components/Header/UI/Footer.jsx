@@ -1,6 +1,6 @@
 
 import React from 'react'
-import '/Users/kevindaliri/digital-agency/src/styles/footer.css'
+import '../../../styles/footer.css'
 
 const year = new Date().getFullYear()
 
