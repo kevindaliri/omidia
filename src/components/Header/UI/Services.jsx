@@ -53,7 +53,7 @@ const Services = () => {
                 <div className="services__top_content">
                     <h6 className="subtitle">Our Services</h6>
                     <h2>Save time managing your business with</h2>
-                    <h2 className="highlight">our best services</h2>
+                    <h2 className="highlight">our best services</h2> 
                 </div>
 
                 <div className="service__item_wrapper">
