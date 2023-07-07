@@ -1,0 +1,121 @@
+
+#newsletter{
+    background: linear-gradient(315deg, #0b2652 26%, #0a0b4e 74%);
+    padding-bottom: 100px;
+}
+
+.contact__header{
+    font-size: 3rem;
+}
+
+.newsletter__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter__content{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.newsletter__button{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact__img{
+    width: 50%;
+    font-size: 1.1rem;
+}
+
+.contact__img img{
+    transform: scale(0.75);
+    height: 85%;
+}
+
+.discord__icon{
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px){
+    h2{
+        font-size: 1.5rem;
+    }
+
+
+    .contact__img{
+        width: 50%;
+        
+    }
+
+    .newsletter__content{
+        margin-right: 75px;
+    }
+
+    .contact__img img{
+        transform: scale(1);
+        margin-top: 50px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+ }
+
+ @media only screen and (max-width: 576px){
+    .contact__header{
+        font-size: 1.5rem;
+    }
+
+    .newsletter__wrapper{
+        flex-direction: column;
+    }
+
+    .newsletter__content{
+        width: 100%;
+    }
+
+    .contact__img{
+        width: 100%;
+        
+    }
+
+    .contact__img img{
+        transform: scale(1);
+        margin-top: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
+ @media only screen and (max-width: 400px){
+    .contact__header{
+        font-size: 1.5rem;
+    }
+
+    .newsletter__wrapper{
+        flex-direction: column;
+    }
+
+    .newsletter__content{
+        width: 100%;
+    }
+
+    .contact__img{
+        width: 100%;
+        
+    }
+
+    .contact__img img{
+        transform: scale(1);
+        margin-top: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+ }
