@@ -1,7 +1,7 @@
 import React, { useRef, useEffect} from 'react'
 import '../../../styles/header.css'
-import omidia from '/Users/kevindaliri/digital-agency/src/images/justcircle.svg';
-import omidia2 from '/Users/kevindaliri/digital-agency/src/images/justtext.svg';
+import omidia from '../../../images/justcircle.svg';
+import omidia2 from '../../../images/justtext.svg';
 
 const nav__links = [
   {

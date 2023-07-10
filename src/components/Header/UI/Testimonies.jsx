@@ -4,9 +4,9 @@ import '../../../styles/testimonies.css'
 
 import Slider from 'react-slick'
 
-import avatarImage from "/Users/kevindaliri/digital-agency/src/images/ben.png"
-import rando1 from "/Users/kevindaliri/digital-agency/src/images/rando.jpg"
-import rando2 from "/Users/kevindaliri/digital-agency/src/images/rando2.jpg"
+import avatarImage from "../../../images/ben.png"
+import rando1 from "../../../images/rando.jpg"
+import rando2 from "../../../images/rando2.jpg"
 
 const settings = {
     dots: false,

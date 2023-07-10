@@ -1,7 +1,7 @@
 
 import React from 'react'
 import '../../../styles/contact.css'
-import contactImage from '/Users/kevindaliri/digital-agency/src/images/realimage.svg'
+import contactImage from '../../../images/realimage.svg'
 
 const Contact = () => {
   return <section id="newsletter">

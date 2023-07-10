@@ -1,9 +1,9 @@
 
 import React from 'react'
 import '../../../styles/team.css'
-import team1 from '/Users/kevindaliri/digital-agency/src/images/kevin.png'
-import team2 from '/Users/kevindaliri/digital-agency/src/images/Potrait.jpeg'
-import team3 from '/Users/kevindaliri/digital-agency/src/images/jerry.png'
+import team1 from '../../../images/kevin.png'
+import team2 from '../../../images/Potrait.jpeg'
+import team3 from '../../../images/jerry.png'
 
 const teamData = [
     {

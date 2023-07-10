@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../../styles/hero.css'
-import newImage from '/Users/kevindaliri/digital-agency/src/images/finalimage.svg'
+import newImage from '../../../images/finalimage.svg'
 
 const Hero = () => {
     const handleClick = (e) => {

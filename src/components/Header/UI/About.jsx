@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../styles/about.css'
 
-import aboutImage from '/Users/kevindaliri/digital-agency/src/images/up.svg'
+import aboutImage from '../../../images/up.svg'
 
 const chooseData = [
     {

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import '../../../styles/webdesign.css';
-import team2 from '/Users/kevindaliri/digital-agency/src/images/heeee.jpg';
-import team3 from '/Users/kevindaliri/digital-agency/src/images/cookbooklogo.png';
-import budget from '/Users/kevindaliri/digital-agency/src/images/budget.jpg';
-import type1 from '/Users/kevindaliri/digital-agency/src/images/Type1.png';
-import jerry1 from '/Users/kevindaliri/digital-agency/src/images/jerry1.jpeg';
-import tissi from '/Users/kevindaliri/digital-agency/src/images/tissi.jpg';
-import boston from '/Users/kevindaliri/digital-agency/src/images/boston.jpg';
-import barb from '/Users/kevindaliri/digital-agency/src/images/barb.png';
+import team2 from '../../../images/heeee.jpg';
+import team3 from '../../../images/cookbooklogo.png';
+import budget from '../../../images/budget.jpg';
+import type1 from '../../../images/Type1.png';
+import jerry1 from '../../../images/jerry1.jpeg';
+import tissi from '../../../images/tissi.jpg';
+import boston from '../../../images/boston.jpg';
+import barb from '../../../images/barb.png';
 
 const teamData = [
     {
