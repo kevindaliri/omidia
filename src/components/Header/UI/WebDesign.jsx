@@ -64,7 +64,7 @@ const teamData = [
     title: "Type 1",
     description: "UX/UI Design",
     category: "Web Design",
-    link: "https://www.figma.com/file/KF8LDzBb8LYQh2MKHRwS0n/FINAL-MINIMUM?type=design&node-id=0%3A1&mode=design&t=VJHfrgNXGsoOWZtz-1"
+    link: "https://www.linkedin.com/in/laksh-tyagi-78a046241/"
   }
 ];
 
