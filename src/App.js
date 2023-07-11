@@ -5,7 +5,6 @@ import Counter from './components/Header/UI/Counter';
 import Services from './components/Header/UI/Services';
 import About from './components/Header/UI/About';
 import Team from './components/Header/UI/Team';
-import Testimonies from './components/Header/UI/Testimonies';
 import Contact from './components/Header/UI/Contact';
 import Footer from './components/Header/UI/Footer';
 import WebDesign from './components/Header/UI/WebDesign';
@@ -19,7 +18,6 @@ function App() {
 <Services />
 <About />
 <WebDesign />
-<Testimonies />
 <Team />
 <Contact />
 <Footer />

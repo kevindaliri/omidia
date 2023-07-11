@@ -10,13 +10,13 @@ import boston from '../../../images/boston.jpg';
 import barb from '../../../images/barb.png';
 
 const teamData = [
-    {
-        image: budget,
-        title: "Budget Buddy",
-        description: "UX/UI Design",
-        category: "Web Design",
-        link: "https://www.figma.com/file/oFmZLVmyLg673qE2ZkbMzy/FINAL-PROJECT---kevin-daliri?type=design&node-id=0%3A1&mode=design&t=iTNgnZGC7Srou7EC-1"
-      },
+  {
+    image: budget,
+    title: "Budget Buddy",
+    description: "UX/UI Design",
+    category: "Web Design",
+    link: "https://www.figma.com/file/oFmZLVmyLg673qE2ZkbMzy/FINAL-PROJECT---kevin-daliri?type=design&node-id=0%3A1&mode=design&t=iTNgnZGC7Srou7EC-1"
+  },
   {
     image: team3,
     title: "Cookbook",
@@ -68,6 +68,20 @@ const teamData = [
   }
 ];
 
+const ProjectItem = React.memo(({ item }) => (
+  <div className="project__item">
+    <a href={item.link} target="_blank" rel="noopener noreferrer">
+      <div className="project__img">
+        <img src={item.image} alt="" />
+        <div className="project__details">
+          <h4>{item.title}</h4>
+          <p>{item.description}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+));
+
 const WebDesign = () => {
   const [selectedCategory, setSelectedCategory] = useState("Web Design");
 
@@ -111,17 +125,7 @@ const WebDesign = () => {
         </div>
         <div className="project__wrapper">
           {filteredData.map((item, index) => (
-            <div className="project__item" key={index}>
-                <a href={item.link} target="_blank">
-              <div className="project__img">
-                <img src={item.image} alt="" />
-                <div className="project__details">
-                  <h4>{item.title}</h4>
-                  <p>{item.description}</p>
-                </div>
-              </div>
-              </a>
-            </div>
+            <ProjectItem key={index} item={item} />
           ))}
         </div>
       </div>
@@ -130,4 +134,3 @@ const WebDesign = () => {
 };
 
 export default WebDesign;
-
